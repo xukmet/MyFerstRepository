@@ -1,0 +1,30 @@
+Задание 1
+a)$ id
+uid=1000(xikmet) gid=1000(xikmet) группы=1000(xikmet),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),114(lpadmin),134(sambashare)
+b)$ date
+Ср 16 сен 2020 18:16:39 MSK
+c)$ pwd
+/home/xikmet
+d.1)$ ls
+ Видео       Загрузки      Музыка         'Рабочий стол'
+ Документы   Изображения   Общедоступные   Шаблоны
+d.2)$ ls -l
+итого 32
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 14:38  Видео
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 14:38  Документы
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 14:38  Загрузки
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 14:38  Изображения
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 14:38  Музыка
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 14:38  Общедоступные
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 18:11 'Рабочий стол'
+drwxr-xr-x 2 xikmet xikmet 4096 сен 16 14:38  Шаблоны
+d.3)$ ls -a
+ .              .gnupg        .sudo_as_admin_successful   Изображения
+ ..             .gtkrc-2.0    .themes                     Музыка
+ .bash_logout   .gtkrc-xfce   .Xauthority                 Общедоступные
+ .bashrc        .icons        .xsession-errors           'Рабочий стол'
+ .cache         .lesshst      .xsession-errors.old        Шаблоны
+ .cinnamon      .local        Видео
+ .config        .mozilla      Документы
+ .dmrc          .profile      Загрузки
+
